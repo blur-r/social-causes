@@ -18,6 +18,14 @@
     text-align: center;
 }
 
+/* .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+} */
+
 .hero button {
     padding: 15px 50px;
     border: none;
@@ -33,18 +41,23 @@
 }
 
 .hero h1 {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: bolder;
     font-size: 3rem;
+    color: #000;
+    z-index: 2;
 }
 
 .hero h2 {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 2rem;
+    color: #000;
+    z-index: 2;
+    font-style: oblique;
 
 }
 
