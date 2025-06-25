@@ -25,7 +25,7 @@ section {
     border: none;
     color: white;
     text-decoration: underline;
-    margin: 15px 0;
+    margin-left: -358px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -36,7 +36,6 @@ section {
 
 p {
     text-align: center;
-    margin-bottom: 5px;
 }
 
 form {
@@ -67,7 +66,7 @@ select {
     background-color: #E7EFF3;
     border: none;
     appearance: none;
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
     -moz-appearance: none;
 }
 
@@ -78,10 +77,6 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-form button:hover {
-    background-color: #005bb5;
 }
 
 @media screen and (max-width: 600px) {
