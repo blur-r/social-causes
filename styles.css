@@ -5,10 +5,10 @@
 }
 
 .hero {
-    background: url("./images/social-cause.png") no-repeat center center/cover;
+    background: url("./images/8056324.jpg") no-repeat center center/cover;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,17 +19,21 @@
 }
 
 .hero button {
-    padding: 15px 20px;
+    padding: 15px 50px;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #ff6347;
     color: white;
     font-size: 16px;
     cursor: pointer;
 }
 
+.hero button:hover {
+    background-color: #ff4500;
+}
+
 .hero h1 {
-    background-color: rgba(102, 155, 195, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
     border-radius: 20px;
     font-weight: bolder;
@@ -37,7 +41,7 @@
 }
 
 .hero h2 {
-    background-color: rgba(102, 155, 195, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
     border-radius: 15px;
     font-size: 2rem;
@@ -110,4 +114,16 @@ footer {
 .social-links a {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width:1024px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+
+        font-size: 1rem;
+
+    }
 }
