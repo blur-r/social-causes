@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/karacis-studio-tZ82klL8PFc-unsplash.png") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 0 10px;
+    color: white;
+}
+
+.back {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    margin-left: -358px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back a {
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E7EFF3;
+    border: none;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E7EFF3;
+    border: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0a84ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        gap: 15px;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+    }
+
+}

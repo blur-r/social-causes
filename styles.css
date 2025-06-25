@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: url("./images/social-cause.png") no-repeat center center/cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+    text-align: center;
+}
+
+.hero button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff6347;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero h1 {
+    background-color: rgba(102, 155, 195, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.hero h2 {
+    background-color: rgba(102, 155, 195, 0.3);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 2rem;
+
+}
+
+.causes {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+
+}
+
+.cause {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cause:hover {
+    transform: scale(1.05);
+}
+
+.cause button {
+    border: none;
+    background-color: #333;
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    margin-top: auto;
+}
+
+.cause img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+}
